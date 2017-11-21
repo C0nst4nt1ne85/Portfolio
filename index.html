@@ -6,30 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Constantine Melios' Portfolio 🖌</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
 </head>
 <body>
-    <div class="grid">
         
-        <header class="header">
-            <nav>
-                <ul class="nav">
-                    <li><a href="#"><img class="logo" src="img/logo.png" alt="Constantine Melios"></a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <div class="about">
+    <header class="header" id="header">
+        <a href="index.html#about" class="logo">
+            <img src="img/logo.png" alt="Constantine Melios">
+        </a>
+        <nav>
+            <ul class="nav">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#portfolio">Portfolio</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+        <aside class="about" id="about">
                 <h1>Developer in training</h1>
-                <p>After several years in retail, sales and marketing fields, I decided to try to become a developer, web and game dev. This is a huge career change, so wish me luck!</p>
-            </div>
-            <div class="portfolio">
-                <h3>My Portfolio</h3>
-                <p>This is a sample of the exercises I studying in development, design, etc</p>
+                <img src="img/self.png" alt="Me">
+                <p>My name is Constantine Melios. I am from Athens, Greece and recently I re-started my "training" in order to become a developer.</p>
+                <p>I am obsessed with MOOCs so I am enrolled to plenty of them all over the net. Coursera, Udemy, Scotch.io, Web Ninja, Total Training, Stack Skills, Zenva Academy and of course Free Code Camp. </p>
+                <p>My road to success is going to be difficult but I am determined. My day job was in marketing field but I am currently unemployed... more time for learning!</p>
+        </aside>
+        <main class="portfolio" id="portfolio">
+            <h1>My Portfolio</h1>
+            <p>Here you can find a sample of exercises and mini projects I am studying on the way to the finish line!</p>
+            <div class="gallery">
                 <a href="https://codepen.io/ConstantineMelios/full/GMarmj/">
-                    <img src="img/ionesco.png" alt="Ionesco">
+                        <img src="img/ionesco.png" alt="Ionesco">
                 </a>
                 <a href="https://codepen.io/ConstantineMelios/pen/ooEaQG">
                     <img src="img/hello.png" alt="Hello Web">
@@ -41,13 +46,33 @@
                     <img src="img/pricing.png" alt="Pricing">
                 </a>
             </div>
-            <div class="contact">
-                <h3>Contact Me</h3>
-                <p>Feel free to get in touch with me! Any suggestions, and help are more than welcomed.</p>
-
-            </div>
         </main>
-        <footer class="footer">Made with css grid and flexbox by <a href="https://www.linkedin.com/in/cmelios/">Constantine Melios</a> 2017</footer>
-    </div>
+        <section class="contact" id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to get in touch with me! Any suggestions, and help are more than welcomed. See you online!</p>
+            <div class="social">
+                <a href="#">
+                    <img src="img/fb.png" alt="Facebook">
+                </a>
+                <a href="https://www.facebook.com/messages/t/constantine.melios">
+                    <img src="img/msn.png" alt="Messenger">
+                </a>
+                <a href="#">
+                    <img src="img/in.png" alt="LinkedIn">
+                </a>
+                <a href="#">
+                    <img src="img/git.png" alt="GitHub">
+                </a>
+                <a href="#">
+                    <img src="img/inst.png" alt="Instagram">
+                </a>
+                <a href="mailto:djagil@gmail.com">
+                    <img src="img/mail.png" alt="email">
+                </a>
+            </div>
+
+        </section>
+    <footer id="footer">Created by <a href="https://www.linkedin.com/in/cmelios/">🖌 Constantine Melios 🖱</a> 2017
+    </footer>
 </body>
 </html>
